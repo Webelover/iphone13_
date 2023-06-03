@@ -1,0 +1,266 @@
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.logo-img {
+    width: 30px;
+}
+.header {
+    background-color: #000000;
+    padding: 33px 0 35px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+.iphone {
+  font-size: 10px;  
+  text-align: right;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.menu-item {
+    padding-right: 20px;
+}
+.menu-link {
+    font-size: 10px;
+    line-height: 19px;
+}
+.headline {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 70px o 40px;
+}
+.title {
+    text-transform: uppercase;
+    margin: 40px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    color: #000000;
+}
+.headline-img {
+    margin-bottom: 25px;
+}
+.headline-btn {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    padding: 12px 37px 15px;
+    border-radius: 30px;
+}
+.headline-btn:hover {
+    background-color: #414141;
+}
+.new {
+    padding: 90px 0 150px;
+}
+.news-title,
+.color-title {
+    margin: 0 0 50px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #717171;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+}
+.camera {
+    width: 60px;
+    align-items: center;
+}
+.car {
+    padding: 10px;
+    color: #000000;
+}
+.block1 {
+    text-align: center;
+    
+}
+b {
+    font-size: 18px;
+}
+.new-info {
+    align-items: center;
+}
+.new-text p {
+    font-size: 28px;
+    margin: 50px 70px 90px;
+}
+.images-new {
+    width: 400px;
+    margin-left: 190px;
+}
+.color {
+    padding-bottom: 150px;
+}
+.color-list {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.color-item img {
+  margin-bottom: 20px;
+}
+.color-item img:hover {
+    cursor: pointer;
+}
+.color-item h3 {
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0 0 10px;
+    color: #000000;
+}
+.color-item p, h3{
+    text-align: center;
+    margin: 0;
+    color: #000;
+}
+.contacts-inner {
+    display: flex;
+    background-color: #ffffffd8;
+}
+.contacts-form {
+    width: 100%;
+    padding: 60px 70px;
+    text-align: center;
+}
+.contacts-title {
+    margin: 0 0 60px;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 39px;
+    color: #000000;
+}
+.iphone-img{
+    width: 400px;
+    height: 500px;
+}
+.contacts-imput {
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #000000;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.contacts-imput::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    opacity: .5;
+    font-family: Impact, sans-serif;
+    font-weight: 400;
+}
+.contacts-form p {
+    opacity: 0.5;
+    text-align: center;
+    margin: 30px 0;
+}
+.contacts-form button {
+    border: none;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #000000;
+    border-radius: 30px;
+    padding: 16px 81px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.footer {
+    background-color: #000000;
+}
+.footer-link {
+    flex-basis: 0;
+    flex-grow: 1;
+    font-size: 10px;
+}
+.footer-inner {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.ip {
+    margin: 20px;
+}
+@media (max-widt: 1200px){
+    .iphone-1{
+        max-width: 100%;
+    }
+}
+@media (max-width: 560px) {
+   .title{
+    font-size: 34px;
+    line-height: 42px;
+   }
+   .headline-btn {
+    font-size: 18px;
+    line-height: 22px;
+    padding: 16px 90px 19px;
+   }
+}
+@media (max-widt: 940px){
+    .new-text p {
+        max-width: 100%;
+    }
+}
+@media (max-widt: 1100px){
+    .color-item{
+        width: 50%;
+    }
+}
+@media (max-widt: 1200px){
+    .headline-img{
+        max-width: 100%;
+    } 
+    .contacts-inner{
+        display: block;
+    }
+    .contacts-form{
+        width: auto;
+    }
+    .contacts-title{
+        text-align: center;
+    }
+}
+@media (max-widt: 940px){
+    .images-new{
+        display: none;
+    }
+    .new-text p,
+    .new-text b{
+        max-width: 100%;
+    }
+ }
+
